@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- bean definitions here -->
+	
+	<bean id="mobile" class="com.capgemini.springcore.beans.MobileBean" autowire="byType">
+		<property name="brandName" value="OPPO F3"></property>
+		<property name="modelName" value="CPH1609"></property>
+		<property name="price" value="19000.0"></property>
+	</bean>
+	
+	<bean id="size" class="com.capgemini.springcore.beans.MobileDisplayBean">
+		<property name="displaySize" value="5.5 inch"></property>
+		<property name="resolution" value="1080x1920"></property>
+	</bean>
+	
+	<!-- <bean id="mobile" class="com.capgemini.springcore.beans.MobileBean" autowire="byName">
+		<property name="brandName" value="OPPO F3"></property>
+		<property name="modelName" value="CPH1609"></property>
+		<property name="price" value="19000.0"></property>
+	</bean>
+	
+	<bean id="mdBean" class="com.capgemini.springcore.beans.MobileDisplayBean">
+		<property name="displaySize" value="5.5 inch"></property>
+		<property name="resolution" value="1080x1920"></property>
+	</bean> -->
+	
+</beans>

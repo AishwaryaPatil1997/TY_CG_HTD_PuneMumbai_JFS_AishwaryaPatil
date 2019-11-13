@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- bean definitions here -->
+	
+	<bean id="development" class="com.capgemini.springcore.beans.DepartmentBean" autowire-candidate="false">
+		<property name="deptId" value="901"></property>
+		<property name="deptname" value="Development"></property>
+	</bean>
+	<bean id="testing" class="com.capgemini.springcore.beans.DepartmentBean" autowire-candidate="false">
+		<property name="deptId" value="902"></property>
+		<property name="deptname" value="Testing"></property>
+	</bean>
+	<bean id="hr" class="com.capgemini.springcore.beans.DepartmentBean">
+		<property name="deptId" value="903"></property>
+		<property name="deptname" value="HR"></property>
+	</bean>
+	
+</beans>

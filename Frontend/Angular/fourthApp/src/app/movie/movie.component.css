@@ -1,0 +1,10 @@
+.force-overflow{
+    width: 300px;
+    height: 800px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+img{
+    height: 150px;
+    align-self: auto;
+}

@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "dinga123",
+    "public": "dist/fifth-app",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

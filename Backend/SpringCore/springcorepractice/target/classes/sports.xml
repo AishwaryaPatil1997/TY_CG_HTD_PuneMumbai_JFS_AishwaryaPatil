@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- bean definitions here -->
+	
+	<!-- Configuration for Map -->
+	<bean id="sports"
+		class="com.capgemini.springcore.annotation.beans.Sports">
+		<property name="name" value="Cricket"></property>
+		<property name="totalPlayers" value="11"></property>
+		<property name="teamInfo">
+			<map>
+				<entry key="India" value="Kohli"></entry>
+				<entry key="Pakistan" value="Sarfaraz"></entry>
+				<entry key="Bangladesh" value="Shakib"></entry>
+			</map>
+		</property>
+	</bean>
+
+</beans>

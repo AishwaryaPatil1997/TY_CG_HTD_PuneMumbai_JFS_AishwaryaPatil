@@ -1,0 +1,38 @@
+[
+    {
+        "id": 101,
+        "name": "Shreyash",
+        "email": "shreyash@gmail.com",
+        "phone": 9876543210
+    }, {
+        "id": 102,
+        "name": "Kavya",
+        "email": "kavya@gmail.com",
+        "phone": 9876543212
+    }, {
+        "id": 103,
+        "name": "Anirudh",
+        "email": "anirudh@gmail.com",
+        "phone": 9876543233
+    }, {
+        "id": 104,
+        "name": "Pranjal",
+        "email": "pranjal@gmail.com",
+        "phone": 9874443210
+    }, {
+        "id": 105,
+        "name": "Swara",
+        "email": "swara@gmail.com",
+        "phone": 9576543210
+    }, {
+        "id": 106,
+        "name": "Himanshu",
+        "email": "himanshu@gmail.com",
+        "phone": 9876543666
+    }, {
+        "id": 107,
+        "name": "Yash",
+        "email": "yash@gmail.com",
+        "phone": 9876547710
+    }
+]
